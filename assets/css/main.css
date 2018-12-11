@@ -1,0 +1,108 @@
+body {
+	padding-top: 80px;
+}
+
+#hero {
+  background: url('../img/bg.png');
+}
+
+.evento {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.rodape {
+	margin-top: 2em;
+	padding: 2em;
+	height: 10em;
+	background: url('../img/banner-grid.png');
+}
+
+@media (min-width: 931px){
+  #hero, .rodape {
+    background-size: 70em;
+  }
+}
+
+@media (max-width: 931px){
+  #hero, .rodape {
+    background-size: 70em;
+  }
+}
+
+@media (max-width: 815px){
+  #hero, .rodape {
+    background-size: 65em;
+  }
+}
+
+@media (max-width: 729px){
+  #hero, .rodape {
+    background-size: 60em;
+  }
+}
+
+@media (max-width: 669px){
+  #hero, .rodape {
+    background-size: 55em;
+  }
+}
+
+@media (max-width: 600px){
+  #hero, .rodape {
+    background-size: 50em;
+  }
+}
+
+@media (max-width: 550px){
+  #hero, .rodape {
+    background-size: 40em;
+  }
+}
+
+@media (max-width: 450px){
+  #hero, .rodape {
+    background-size: 35em;
+  }
+}
+
+@media (max-width: 388px){
+  #hero, .rodape {
+    background-size: 32em;
+  }
+}
+
+@media (max-width: 354px){
+  #hero, .rodape {
+    background-size: 30em;
+  }
+}
+
+@media (max-width: 322px){
+  #hero, .rodape {
+    background-size: 28em;
+  }
+}
+
+@media (max-width: 300px){
+  #hero, .rodape {
+    background-size: 25em;
+  }
+}
+
+@media (max-width: 270px){
+  #hero, .rodape {
+    background-size: 20em;
+  }
+}
+
+.icon {
+	fill: #fff;
+	width: : 2em;
+	height: 2em;
+}
+
+.filter-member {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}

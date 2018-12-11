@@ -1,0 +1,20 @@
+- question: "Minha comunidade pode apoiar o evento?"
+  answer: "Sim! Envie um e-mail para arduinoday.ci@gmail.com para conversarmos sobre isso."
+
+- question: "Quero patrocinar ou apoiar o evento"
+  answer: "Maravilha! Envie um e-mail para arduinoday.ci@gmail.com para conversarmos sobre isso."
+
+- question: "Quando será realizado o evento?"
+  answer: "A edição de 2019 será realizada nos dias..."
+
+- question: "Qual o horário do evento?"
+  answer: "-"
+
+- question: "Onde será realizado o evento?"
+  answer: "O #ArduinoD19 será no IFES (Instituto Federal do Espirito Santo), Campus Cachoeiro de Itapemirim, Rodovia ES-482 (Cachoeiro-Alegre) - Fazenda Morro Grande, CEP 29311-970 - Cachoeiro de Itapemirim, ES - Brasil."
+
+- question: "O evento é gratuito?"
+  answer: "Sim! Não será cobrado nada para participar do evento."
+
+- question: "O que está incluso no evento?"
+  answer: "Acesso livre a área de realização do evento, e a todas as palestras durante o dia do evento."
