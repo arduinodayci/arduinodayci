@@ -1,57 +1,84 @@
 ---
 layout: default
+lang: pt-br
+title: Home
 ---
 <div class="jumbotron" id="hero">
   <div class="container">
   	<img src="{{ site.baseurl }}/assets/img/arduinoday19.png" class="img-fluid">
     <h1 class="display-4">Unindo pessoas e projetos</h1>
     <p class="lead">Está chegando o Arduino Day 2019. Venha compartilhar ideias com a gente!</p>
-    <a class="btn btn-info btn-lg" href="#" role="button">Faça sua inscrição</a>
+    <a class="btn btn-info btn-lg" href="{{ site.url }}/inscricao/" role="button">Faça sua inscrição</a>
   </div>
 </div>
-
-<div class="evento text-center bg-info text-light">
+<div class="container-fluid text-center bg-info text-light py-5">
 	<div class="row">
-	  <div class="col-lg-4">
+    <div class="col-lg">
 	  	<svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
 	    <h3>O evento</h3>
 	    <p>
 	    	O evento é totalmente gratuito e aberto a toda comunidade de Cachoeiro e região. Algumas atividades requerem inscrição e possuem limite de vaga. Uma agenda detalhada da programação será divulgada online previamente. 
 	    </p>
-	  </div>
-	  <div class="col-lg-4">
-	  	<svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+    </div>
+    <div class="col-lg">
+      <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
 	    <h3>Quando</h3>
 	    <p>
-	    	O evento deste ano acontecerá nos dias ... No sábado, as atividades são extensivas à comunidade geral.  
+	    	O evento deste ano acontecerá nos dias 15 e 16 de março de 2019.  
 	    </p>
-	  </div>
-	  <div class="col-lg-4">
-	  	<svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+    </div>
+    <div class="col-lg">
+      <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
 	    <h3>Onde</h3>
 	    <p>
 	    	Todas as atividades serão realizadas no campus do Ifes em Cachoeiro de Itapemirim - ES. Fique atento à programação do evento para detalhamento do local de realização de cada atividade.  
 	    </p>
-	  </div>
+    </div>
   </div>
 </div>
-<div class="container marketing">
-	<div class="text-center">
-	  <h2>Organização</h2>
-	</div>        
-	<hr class="featurette-divider">
+	<div class="container text-center py-5">
+	<h2 class="p-4">O Evento</h2> 
 	<div class="row">
-		{% for member in site.data.team %}
-	  <div class="col-lg-4">
-	    <img class="rounded-circle filter-member" src="{{ site.baseurl }}/assets/img/members/{{ member.image }}" alt="{{ member.name }}" width="200" height="200">
-	    <h5>{{ member.name }}</h5>
+    <div class="col-lg">
+	  	<svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+	    <h3>Palestras</h3>
+	    <p>
+	    	O estado da arte em Arduino, Impressão 3D, são alguns dos temas a serem abordados nas palestras desta segunda edição do Arduino Day.  
+	    </p>
+    </div>
+    <div class="col-lg">
+      <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+	    <h3>Exposições</h3>
+	    <p>
+	    	Mostra com os trabalhos já desenvolvidos no campus utilizando a plataforma Arduino. Destaque para a apresentação dos trabalhos a serem proferidas pelos próprios alunos. 
+	    </p>
+    </div>
+    <div class="col-lg">
+      <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+	    <h3>Minicursos</h3>
+	    <p>
+	    	Minicursos para os níveis iniciantes serão oferecidos. Todos com atividades baseadas em exemplos práticos e muito aplicados nos dias de hoje.  
+	    </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-info text-light py-5">
+	<div class="container text-center">
+		<h2 class="py-5">Organização</h2>    
+	  <div class="row">
+	  	{% for member in site.data.team %}
+		  <div class="col-md-4">
+		    <img class="rounded-circle filter-member" src="{{ site.baseurl }}/assets/img/members/{{ member.image }}" alt="{{ member.name }}" width="200" height="200">
+		    <h5 class="py-2">{{ member.name }}</h5>
+		  </div>
+			{% endfor %}
 	  </div>
-		{% endfor %}
 	</div>
-	<hr class="featurette-divider">	
-	<div id="faq">
+</div>
+<div id="faq" class="container py-5">
+	<div>
 		<div class="text-center">
-		  <h2>FAQ</h2>
+		  <h2 class="py-5">FAQ</h2>
 		  <p>Criamos o FAQ para te ajudar a esclarecer as principais dúvidas relacionadas ao evento.</p>
 		</div>
 		<div class="accordion" id="accordionExample">
@@ -64,7 +91,6 @@ layout: default
 			        </button>
 			      </h5>
 			    </div>
-
 		    	<div id="question-{{ forloop.index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 			      <div class="card-body">
 			        {{ faq.answer }}
@@ -73,5 +99,11 @@ layout: default
 	  	</div>
 		  {% endfor %}
 		</div>
+	</div>
+</div>
+<div class="container-fluid bg-info text-light py-5">
+	<div class="text-center">
+	  <h2 class="py-4">Não respondemos sua dúvida?</h2>
+	  <p>Entre em contato pelo email {{ site.contact.email }}, vai ser um prazer te ajudar :) </p>
 	</div>
 </div>

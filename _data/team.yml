@@ -1,8 +1,11 @@
 - name: Júlio Madureira
-  image: julio.jpg
+  image: madureira.jpg
 
 - name: Bruno Missi Xavier
-  image: bruno.jpg
+  image: xavier.jpg
 
 - name: Gabriel Valane
   image: valane.jpg
+
+#- name: Douglas Gusson
+#  image: gusson.jpg

@@ -6,15 +6,7 @@ body {
   background: url('../img/bg.png');
 }
 
-.evento {
-	padding-top: 3em;
-	padding-bottom: 3em;
-}
-
 .rodape {
-	margin-top: 2em;
-	padding: 2em;
-	height: 10em;
 	background: url('../img/banner-grid.png');
 }
 

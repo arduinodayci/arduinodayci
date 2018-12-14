@@ -1,5 +1,5 @@
 # Site settings
-title: Arduino Day | IFES
+title: Arduino Day
 description: > # this means to ignore newlines until "baseurl:"
   Está chegando o Arduino Day 2019 Cachoeiro, um evento para reunir a comunidade local para discutir ideias e apresentar projetos que utilizem plataformas de prototipagem de baixo custo. Serão oferecidos minicursos, palestras e mostras de trabalhos. Fique atento à agenda com a programação e às atividades que requerem inscrição. Venha participar com a gente.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,5 +9,14 @@ author: "Labora"
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+# Contact info
+contact:
+  phone: (28) 3526-9033 | (28) 3526-9045
+  email: arduinoday.ci@gmail.com
+  address: Rodovia ES-482 (Cachoeiro-Alegre) - Fazenda Morro Grande, CEP 29311-970 - Cachoeiro de Itapemirim, ES - Brasil
+
+plugins:
+  - jekyll-seo-tag
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]

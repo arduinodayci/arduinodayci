@@ -1,0 +1,33 @@
+---
+layout: default
+lang: pt-br
+title: Programação
+permalink: /programacao/
+---
+<div class="jumbotron jumbotron-fluid bg-white">
+  <div class="container">
+    <h1 class="display-4 text-center">Programação</h1>
+    <hr class="py-3" />
+    <div class="row">
+      <div class="col-md-12">
+          <div class="main-timeline">
+          		{% for schedule in site.data.schedule %}
+						  <div class="timeline">
+						      <span class="timeline-icon"></span>
+						      <span class="year">{{ schedule.horario }}</span>
+						      <div class="timeline-content">
+						          <h3 class="title">{{ schedule.titulo }}</h3>
+						          <p class="description">
+					              {{ schedule.descricao }}
+					              {% if schedule.link %}
+						          	<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba mais</a>
+						          	{% endif %}
+						          </p>
+						      </div>
+						  </div>
+							{% endfor %}	             
+          </div>
+      </div>
+		</div>
+  </div>
+</div>
