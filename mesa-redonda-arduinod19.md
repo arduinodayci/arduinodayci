@@ -3,6 +3,7 @@ layout: schedule
 lang: pt-br
 title: Mesa redonda ArduinoD19
 schedule: 15 de março de 2019, às 19h
+permalink: /programacao/mesa-redonda-arduino-d19/
 ---
 
 ## Internet das coisas (_Internet of things IoT_)
