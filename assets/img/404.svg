@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="175.15104"
-     inkscape:cy="465.0035"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-64.867176"
+     inkscape:cy="488.70055"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </svg:metadata>
@@ -52,29 +52,24 @@
      inkscape:groupmode="layer"
      id="layer1">
     <svg:g
-       id="g273"
-       transform="matrix(6.5693596,0,0,6.5693596,-204.40023,-351.53868)"
-       inkscape:export-xdpi="108.69305"
-       inkscape:export-ydpi="108.69305">
+       id="g58"
+       transform="translate(-1.3455749e-5)"
+       inkscape:export-xdpi="71.374733"
+       inkscape:export-ydpi="71.374733">
       <svg:text
          id="text205"
-         y="70.034508"
-         x="47.100948"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00979c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         y="108.54318"
+         x="105.02283"
+         style="font-style:normal;font-weight:normal;font-size:69.52571869px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00979c;fill-opacity:1;stroke:none;stroke-width:1.73814297"
          xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:0.26458332"
-           y="70.034508"
-           x="47.100948"
-           id="tspan203"
-           sodipodi:role="line">404</svg:tspan><svg:tspan
            id="tspan207"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:0.26458332"
-           y="83.263672"
-           x="47.100948"
-           sodipodi:role="line">NOT</svg:tspan></svg:text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:1.73814297"
+           y="108.54318"
+           x="105.02283"
+           sodipodi:role="line">404</svg:tspan></svg:text>
       <svg:g
          style="font-size:167px;font-family:sans-serif;text-anchor:middle;fill:#00979c;stroke:#00979c;stroke-width:20"
-         transform="matrix(0.02579984,0,0,0.02579984,33.294557,61.938621)"
+         transform="matrix(0.16948843,0,0,0.16948843,14.323703,55.928729)"
          id="g8"
          font-size="167">
         <svg:g
@@ -92,9 +87,28 @@
           <ndash />
         </svg:text>
       </svg:g>
+    </svg:g>
+    <svg:text
+       id="text213"
+       y="196.83615"
+       x="103.52279"
+       style="font-style:normal;font-weight:normal;font-size:41.36024094px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00979c;fill-opacity:1;stroke:none;stroke-width:1.03400588"
+       xml:space="preserve"
+       inkscape:export-xdpi="71.374733"
+       inkscape:export-ydpi="71.374733"><svg:tspan
+         id="tspan211"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:1.03400588"
+         y="196.83615"
+         x="103.52279"
+         sodipodi:role="line">FOUND</svg:tspan></svg:text>
+    <svg:g
+       id="g48"
+       transform="translate(197.02853,54.272799)"
+       inkscape:export-xdpi="71.374733"
+       inkscape:export-ydpi="71.374733">
       <svg:g
          style="font-size:167px;font-family:sans-serif;text-anchor:middle;fill:#00979c;stroke:#00979c;stroke-width:20"
-         transform="matrix(0.02121826,0,0,-0.02121826,35.543097,83.091834)"
+         transform="matrix(0.13883914,0,0,-0.20943446,-167.63322,117.93274)"
          id="g8-1"
          font-size="167">
         <svg:g
@@ -112,15 +126,15 @@
       </svg:g>
       <svg:text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.29593182px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00979c;fill-opacity:1;stroke:none;stroke-width:0.15739828"
-         x="46.872608"
-         y="90.263901"
-         id="text213"><svg:tspan
+         style="font-style:normal;font-weight:normal;font-size:69.52571869px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00979c;fill-opacity:1;stroke:none;stroke-width:1.73814297"
+         x="-92.489357"
+         y="108.00864"
+         id="text38"><svg:tspan
            sodipodi:role="line"
-           x="46.872608"
-           y="90.263901"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:0.15739828"
-           id="tspan211">FOUND</svg:tspan></svg:text>
+           x="-92.489357"
+           y="108.00864"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0;font-family:ocrb6;-inkscape-font-specification:ocrb6;text-align:center;text-anchor:middle;fill:#00979c;fill-opacity:1;stroke-width:1.73814297"
+           id="tspan36">NOT</svg:tspan></svg:text>
     </svg:g>
   </svg:g>
 </svg:svg>
