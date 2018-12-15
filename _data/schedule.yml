@@ -3,3 +3,15 @@
   horario: "15/03/2019 - 19h"
   local: "Auditório do campus"
   link: /programacao/mesa-redonda-arduino-d19
+  
+- titulo: "Minicurso Lorem Ipsum"
+  descricao: "teste"
+  horario: "16/03/2019 - 07h"
+  local: "Auditório do campus"
+  link:
+
+- titulo: "Minicurso Lorem Ipsum"
+  descricao: "teste"
+  horario: "16/03/2019 - 08h"
+  local: "Auditório do campus"
+  link:
