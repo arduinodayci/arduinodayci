@@ -91,8 +91,16 @@ body {
 
 .icon {
 	fill: #fff;
-	width: : 2em;
-	height: 2em;
+	max-width: 2em;
+	max-height: 2em;
+}
+
+.social-icon {
+  fill: #00878f;
+}
+
+.social-icon:hover {
+  fill: #62aeb2;
 }
 
 .filter-member {
