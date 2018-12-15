@@ -1,4 +1,5 @@
 body {
+  font-family: 'Nunito', sans-serif;
 	padding-top: 80px;
 }
 
@@ -97,4 +98,24 @@ body {
 .filter-member {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+}
+
+.hr-15-laranja {
+  width: 15%;
+  background-color: #e47128;
+}
+
+.hr-15-branco {
+  width: 15%;
+  background-color: #fff;
+}
+
+.hr-15-verde {
+  width: 15%;
+  background-color: #00878f;
+}
+
+.map {
+  height: 50vh;
+  width: 100%;
 }

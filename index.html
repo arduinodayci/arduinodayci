@@ -37,12 +37,14 @@ title: Home
     </div>
   </div>
 </div>
-	<div class="container text-center py-5">
-	<h2 class="p-4">O Evento</h2> 
+<div class="container text-center py-5">
+	<h2 class="p-4">Atividades</h2> 
+	<hr class="hr-15-laranja">
 	<div class="row">
     <div class="col-lg">
 	  	<svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
 	    <h3>Palestras</h3>
+	    <hr class="hr-15-verde">
 	    <p>
 	    	O estado da arte em Arduino, Impressão 3D, são alguns dos temas a serem abordados nas palestras desta segunda edição do Arduino Day.  
 	    </p>
@@ -50,6 +52,7 @@ title: Home
     <div class="col-lg">
       <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
 	    <h3>Exposições</h3>
+	    <hr class="hr-15-verde">
 	    <p>
 	    	Mostra com os trabalhos já desenvolvidos no campus utilizando a plataforma Arduino. Destaque para a apresentação dos trabalhos a serem proferidas pelos próprios alunos. 
 	    </p>
@@ -57,6 +60,7 @@ title: Home
     <div class="col-lg">
       <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
 	    <h3>Minicursos</h3>
+	    <hr class="hr-15-verde">
 	    <p>
 	    	Minicursos para os níveis iniciantes serão oferecidos. Todos com atividades baseadas em exemplos práticos e muito aplicados nos dias de hoje.  
 	    </p>
@@ -65,12 +69,13 @@ title: Home
 </div>
 <div class="container-fluid bg-info text-light py-5">
 	<div class="container text-center">
-		<h2 class="py-5">Organização</h2>    
+		<h2 class="py-4">Organização</h2>
+	  <hr class="hr-15-branco mb-5">
 	  <div class="row">
 	  	{% for member in site.data.team %}
 		  <div class="col-md-4">
 		    <img class="rounded-circle filter-member" src="{{ site.baseurl }}/assets/img/members/{{ member.image }}" alt="{{ member.name }}" width="200" height="200">
-		    <h5 class="py-2">{{ member.name }}</h5>
+		    <p class="lead py-2">{{ member.name }}</p>
 		  </div>
 			{% endfor %}
 	  </div>
@@ -79,7 +84,8 @@ title: Home
 <div id="faq" class="container py-5">
 	<div>
 		<div class="text-center">
-		  <h2 class="py-5">FAQ</h2>
+		  <h2 class="py-4">FAQ</h2>
+		  <hr class="hr-15-laranja">
 		  <p>Criamos o FAQ para te ajudar a esclarecer as principais dúvidas relacionadas ao evento.</p>
 		</div>
 		<div class="accordion" id="accordionExample">
@@ -108,11 +114,18 @@ title: Home
 	  <p>Entre em contato pelo email {{ site.contact.email }}, vai ser um prazer te ajudar :) </p>
 	</div>
 </div>
-<div class="container-fluid py-5">
+<div id="local" class="container-fluid py-5">
 	<div class="text-center">
-		<img src="{{ site.baseurl }}/assets/img/componentes.svg" alt="Ilustração componetes eletrônicos" height="200">
+	  <h2 class="py-4">Local</h2>
+	  <hr class="hr-15-laranja">
+	</div>
+	<div class="text-center">
+		<img class="img-fluid" src="{{ site.baseurl }}/assets/img/componentes.svg" alt="Ilustração componetes eletrônicos">
 		<h2 class="py-4">Uma celebração mundial do Arduino</h2>
-		<p class="lead">São 529 eventos em 94 países</p>
-		<p>Cachoeiro de Itapemirim é a única cidade que promove o Arduino Day em terras capixabas.</p>
+		<p class="lead">São mais de 500 eventos que acontecem em quase 100 países</p>
+		<p>Atualmente, <strong>Cachoeiro de Itapemirim</strong> é a única cidade que promove o Arduino Day em terras capixabas</p>
 	</div>
 </div>
+<!-- Start Location -->
+<div id="location" class="map"></div>
+<!-- End Location -->

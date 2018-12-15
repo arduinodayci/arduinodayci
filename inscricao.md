@@ -7,4 +7,4 @@ schedule:
 
 ### Ainda não iniciou o período de incrições
 
-Volte em breve! Será um prezer tê-lo conosco.
+Volte em breve! Será um prazer tê-lo conosco.
