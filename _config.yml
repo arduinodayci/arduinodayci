@@ -9,6 +9,7 @@ author: "Labora"
 # Build settings
 markdown: kramdown
 permalink: /:title/
+google_maps_javascript_api_key: "AIzaSyCdvKiZ7dmgeAGH3GicFsgkMdG0VtZbTew"
 
 # Contact info
 contact:
