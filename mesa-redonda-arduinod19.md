@@ -3,12 +3,13 @@ layout: schedule
 lang: pt-br
 title: Mesa redonda ArduinoD19
 schedule: 15 de março de 2019, às 19h
+description: "“Internet das coisas (loT), Internet de tudo ou Internet industrial é um novo paradigma tecnológico imaginado como uma rede global de máquinas e dispositivos capazes de interagirem uns com os outros.” (In Lee, Kyoochun Lee. 2015)"
 permalink: /programacao/mesa-redonda-arduino-d19/
 ---
 
 ## Internet das coisas (_Internet of things IoT_)
 
-“Internet das coisas (loT), Internet de tudo ou Internet industrial é um novo paradigma tecnológico imaginado como uma rede global de máquinas e dispositivos capazes de interagirem uns com os outros.” (In Lee, Kyoochun Lee. 2015)
+> "Internet das coisas (loT), Internet de tudo ou Internet industrial é um novo paradigma tecnológico imaginado como uma rede global de máquinas e dispositivos capazes de interagirem uns com os outros." (In Lee, Kyoochun Lee. 2015)
 
 Soluções tecnológicas que utilizam RFID, rede de sensores sem fio (WSN) e computação em nuvem são alguns exemplos de aplicações com crescente demanda no mercado atualmente.
 
