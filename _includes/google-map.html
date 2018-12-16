@@ -1,0 +1,32 @@
+<div id="location" class="map"></div>
+<script>
+  window.mapData = {"latitude": {{ include.latitude }},"longitude": {{ include.longitude }}, "zoom": {{ include.zoom}}};
+  function initMap() {
+    var myOptions = {
+      zoom: window.mapData.zoom,
+      center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+      scrollwheel: false,
+      panControl: false,
+      mapTypeControl: true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{ stylers: [{saturation: -50}]},
+               {featureType: 'water', stylers: [{color: '#40b4ba'}]}
+          ],
+      zoomControlOptions: {position: google.maps.ControlPosition.LEFT_CENTER}
+    };
+
+    var map = new google.maps.Map(document.getElementById('location'), myOptions);
+
+    var marker = new google.maps.Marker({
+      map: map,
+      position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+      icon: '/assets/img/pin.png',
+      title: 'Arduino Day - Cachoeiro'
+    });
+
+    google.maps.event.addDomListener(window, 'resize', function() {
+      map.setCenter(myOptions.center);
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
