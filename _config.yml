@@ -11,6 +11,9 @@ markdown: kramdown
 permalink: /:title/
 google_maps_javascript_api_key: "AIzaSyCdvKiZ7dmgeAGH3GicFsgkMdG0VtZbTew"
 
+sass:
+  style: compressed
+
 # Contact info
 contact:
   phone: (28) 3526-9033 | (28) 3526-9045
