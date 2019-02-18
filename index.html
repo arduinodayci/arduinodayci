@@ -6,9 +6,11 @@ title: Home
 <div class="jumbotron" id="hero">
   <div class="container">
   	<img src="{{ site.baseurl }}/assets/img/arduinoday19.png" alt="Logo Arduino Day 2019" class="img-fluid">
-    <h1 class="display-4">Unindo pessoas e projetos</h1>
-    <p class="lead">Está chegando o Arduino Day 2019. Venha compartilhar ideias com a gente!</p>
-    <p class="lead py-2">15 e 16 de março <span class="badge badge-pill badge-info">Save the Date!</span></p>
+    <div class="div-text-home">
+    	<h1 class="display-4">Unindo pessoas e projetos</h1>    	
+    	<p class="lead">Está chegando o Arduino Day 2019. Venha compartilhar ideias com a gente!</p>
+    	<p class="lead py-2">15 e 16 de março <span class="badge badge-pill text-light bg-cor-padrao">Save the Date!</span></p>
+    </div>
     <a class="btn btn-info btn-lg" href="{{ site.url }}/inscricao/" role="button">Faça sua inscrição</a>
   </div>
 </div>
@@ -74,7 +76,7 @@ title: Home
 	  <hr class="hr-15-branco mb-5">
 	  <div class="row">
 	  	{% for member in site.data.team %}
-		  <div class="col-md-4">
+		  <div class="col">
 		    <img class="rounded-circle filter-member" src="{{ site.baseurl }}/assets/img/members/{{ member.image }}" alt="Foto {{ member.name }}" width="200" height="200">
 		    <p class="lead py-2">{{ member.name }}</p>
 		  </div>

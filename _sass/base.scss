@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+$cor-padrao: #d94a00;
+
 body {
   font-family: 'Nunito', sans-serif;
 	padding-top: 80px;
@@ -128,4 +130,13 @@ body {
 .map {
   height: 50vh;
   width: 100%;
+}
+
+.bg-cor-padrao {
+  background-color: $cor-padrao;
+}
+
+.div-text-home {
+  color: #806f5c;
+  background-color: rgba(255, 255, 255, .75);
 }
