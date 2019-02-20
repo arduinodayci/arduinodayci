@@ -99,12 +99,65 @@ body {
 	max-height: 2em;
 }
 
+.bg-info1{
+  background: $cor-padrao !important;
+}
+
+.badge-warning{
+  color: #fff;
+}
+
+.h3-text{
+  color: $cor-padrao !important;
+}
+
+
+.h2-text{
+  color: #17a2b8 !important;
+}
+
+.text-y{
+  color: #e5ad24 !important;
+}
+.text-info {
+    color: #ffff !important;
+}
+.icon {
+	fill: #fff;
+	max-width: 2em;
+	max-height: 2em;
+}
+
+.skew{
+  -ms-transform:skewY(-2deg);
+  -webkit-transform:skewY(-2deg);
+  transform:skewY(-2deg);
+}
+
+.skew-reverse{
+  -ms-transform:skewY(2deg);
+  -webkit-transform:skewY(2deg);
+  transform:skewY(2deg);
+}
+
+.skew-org{
+  -ms-transform:skewY(2deg);
+  -webkit-transform:skewY(2deg);
+  transform:skewY(2deg);
+}
+
+.skew-reverse-org{
+  -ms-transform:skewY(-2deg);
+  -webkit-transform:skewY(-2deg);
+  transform:skewY(-2deg);
+}
+
 .social-icon {
-  fill: #00878f;
+  fill: #e37128;
 }
 
 .social-icon:hover {
-  fill: #62aeb2;
+  fill: #cc8400;
 }
 
 .filter-member {
@@ -130,10 +183,6 @@ body {
 .map {
   height: 50vh;
   width: 100%;
-}
-
-.bg-cor-padrao {
-  background-color: $cor-padrao;
 }
 
 .div-text-home {
