@@ -1,5 +1,29 @@
 - titulo: "Mesa redonda ArduinoD19"
   descricao: "Internet das coisas (Internet of things - IoT)"
-  horario: "15/03/2019 - 19h"
+  horario: "15/03/2019 - 18:30 às 20:30"
   local: "Auditório do campus"
   link: /programacao/mesa-redonda-arduino-d19
+
+- titulo: "Mostras técnicas"
+  descricao: "Em breve mais informações"
+  horario: "15/03/2019 - 20:50 às 22:00"
+  local: "Auditório do campus"
+  link:
+
+- titulo: "Oficinas"
+  descricao: "Em breve mais informações" 
+  horario: "16/03/2019 - 08:00 às 09:00"
+  local: "Auditório do campus"
+  link:
+
+- titulo: "Palestras"
+  descricao: "Em breve mais informações" 
+  horario: "16/03/2019 - 09:00"
+  local: "Auditório do campus"
+  link:
+
+- titulo: "Minicursos"
+  descricao: "Em breve mais informações" 
+  horario: "16/03/2019 - 09:00"
+  local: "Auditório do campus"
+  link:

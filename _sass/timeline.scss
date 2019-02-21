@@ -200,6 +200,7 @@ $color-border-nth-child-4: #25cbaa;
 			float: none;
 			padding: 0 0 0 30px;
 			margin-bottom: 20px!important;
+			position: relative;
 
 			&:last-child {
 				margin: 0!important;
@@ -231,3 +232,4 @@ $color-border-nth-child-4: #25cbaa;
 	}
 
 }
+

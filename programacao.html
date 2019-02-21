@@ -5,10 +5,14 @@ title: Programação
 description: Fique de olho na programação do evento, pois estará recheado de atividades bacanas.
 permalink: /programacao/
 ---
+<div class="container-fluid bg-info1 text-light py-5">
+	<div class="container">
+		<h1>Programação</h1>
+		<p>Veja as informações das atividades</p>
+	</div>
+</div>
 <div class="jumbotron jumbotron-fluid bg-white">
   <div class="container">
-    <h1 class="display-4 text-center">Programação</h1>
-    <hr class="py-3" />
     <div class="row">
       <div class="col-md-12">
           <div class="main-timeline">
@@ -20,13 +24,11 @@ permalink: /programacao/
 						          <h3 class="title">{{ schedule.titulo }}</h3>
 						          <p class="description">
 					              {{ schedule.descricao }}
-					              {% if schedule.link %}
-						          	<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba mais</a>
-						          	{% endif %}
+					              {% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba mais</a>{% endif %}
 						          </p>
 						      </div>
 						  </div>
-							{% endfor %}	             
+							{% endfor %}
           </div>
       </div>
 		</div>
