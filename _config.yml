@@ -22,5 +22,6 @@ contact:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]
