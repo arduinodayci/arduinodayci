@@ -10,20 +10,26 @@
   local: "Auditório do campus"
   link:
 
-- titulo: "Oficinas"
-  descricao: "Em breve mais informações" 
-  horario: "16/03/2019 - 08:00 às 09:00"
+- titulo: "Oficina de Cubo Mágico ArduinoD19"
+  descricao: "Será conduzida pelo professor Eliseu Semprini. Faça já a sua inscrição!" 
+  horario: "16/03/2019 - a partir de 08:30"
   local: "Auditório do campus"
   link:
 
-- titulo: "Palestras"
-  descricao: "Em breve mais informações" 
+- titulo: "Palestra: Meninas na robótica"
+  descricao: "Apresentação do projeto Meninas na Robótica" 
   horario: "16/03/2019 - 09:00"
   local: "Auditório do campus"
-  link:
+  link: /programacao/palestra-meninas-na-robotica/
 
-- titulo: "Minicursos"
-  descricao: "Em breve mais informações" 
-  horario: "16/03/2019 - 09:00"
+- titulo: "Minicurso: Arduino.ZERO"
+  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. Faça já a sua inscrição!" 
+  horario: "16/03/2019 - a partir de 10:00"
   local: "Auditório do campus"
-  link:
+  link: 
+
+- titulo: "Minicurso: Arduino.UM"
+  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. Faça já a sua inscrição!" 
+  horario: "16/03/2019 - a partir de 10:00"
+  local: "Auditório do campus"
+  link: 
