@@ -1,0 +1,14 @@
+- titulo: "Oficina de Cubo Mágico ArduinoD19"
+  nome: "Oficina de Cubo Mágico"
+  descricao: "Formulário para Inscrições na Oficina de Cubo Mágico. Será conduzida pelo professor Eliseu Semprini, no dia 16 de março de 2019, a partir de 08:30."
+  link: "https://docs.google.com/forms/d/1qjM8or7JJkzTPWg7xyUNB3EFfZXQnKz6I9diNi2NYnE/viewform?edit_requested=true"
+
+- titulo: "Formulário para inscrição no minicurso Arduino.ZERO (blink e semáforo)"
+  nome: "Arduino.ZERO"
+  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. O hardware será apresentado juntamente com seu ambiente de programação (IDE). Alguns programas básicos serão desenvolvidos para que os participantes sejam capazes de resolver problemas básicos. Esta atividade acontecerá no dia 16 de março de 2019, a partir de 10:00."
+  link: "https://drive.google.com/open?id=1EnMdm_3iPGSFuSRZLBOH_TuhU28Cp_Ed0btA4XyV3DI"
+
+- titulo: "Formulário para inscrição no minicurso Arduino.UM (motores CC e servo)"
+  nome: "Arduino.UM"
+  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. O hardware será apresentado juntamente com seu ambiente de programação (IDE). Alguns programas básicos serão desenvolvidos para que os participantes sejam capazes de resolver problemas básicos. Esta atividade acontecerá no dia 16 de março de 2019, a partir de 10:00." 
+  link: "https://drive.google.com/open?id=1MPnm3J29hvtTPxy8HdnxJDSE_MFvOsOXi8lZURiVsDQ"
