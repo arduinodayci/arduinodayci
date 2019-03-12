@@ -4,7 +4,7 @@
 - name: Bruno Missi Xavier
   image: xavier.jpg
 
-- name: Jhonatan Gonçalves Dantas
+- name: Jhonatan Dantas
   image: dantas.jpg
 
 - name: Leandro Ferreira
@@ -12,6 +12,9 @@
 
 - name: Gabriel Valane
   image: valane.jpg
+
+- name: Joana Rozaes
+  image: rozaes.jpg
 
 - name: Douglas Gusson
   image: gusson.jpg
