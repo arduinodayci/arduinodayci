@@ -1,0 +1,21 @@
+---
+layout: default
+title: Incrições
+description: Para a garantir a participação no Arduino Day, é importante se inscrever.
+---
+<div class="container-fluid bg-info text-light py-5">
+	<div class="container">
+		<h1>Incrições</h1>
+		<p>Venha participar conosco!</p>
+	</div>
+</div>
+<div class="container py-5 text-justify">
+	{% for activity in site.data.activities %}
+	<div class="py-4">
+		<p class="lead">{{ activity.titulo }}</h2>
+		<p>{{ activity.descricao }}</p>
+		<a class="btn btn-info" href="{{ activity.link }}" target="_blank" role="button">{{ activity.nome }}</a>
+	</div>
+	<hr />
+	{% endfor %}
+</div>
