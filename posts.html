@@ -1,0 +1,32 @@
+---
+layout: default
+lang: pt-br
+title: Posts
+permalink: /posts/
+---
+<div class="container-fluid bg-info text-light py-5">
+	<div class="container">
+		<h1>Posts</h1>
+	</div>
+</div>
+<div class="container">
+  {% for post in site.posts %}
+    <div class="py-4">
+		<h2>
+            <a href="{{ post.url | relative_url }}" class="text-dark link-clean">{{ post.title | escape }}</a>
+        </h2>
+        <p>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="text-secondary">
+                {% include date.html date=post.date %}
+            </time>
+        </p>
+		<p>
+            {{ post.content | strip_html | truncatewords:40 }}
+        </p>
+		<p>
+            <a class="btn btn-info" href="{{ post.url | relative_url }}" role="button">Leia mais &raquo;</a>
+        </p>
+        <hr />
+	</div>
+  {% endfor %}
+</div>
