@@ -163,6 +163,10 @@ body {
 .filter-member {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+	&:hover{
+	    filter: grayscale(0);
+	    transition: 1s;
+	}
 }
 
 .hr-15-laranja {
