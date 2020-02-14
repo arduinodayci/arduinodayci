@@ -1,10 +1,10 @@
 ---
-layout: schedule
+layout: post
 lang: pt-br
 title: "Palestra: Meninas na Robótica"
 schedule: "16 de março de 2019, às 09:00"
 description: "Apresentação do projeto Meninas na Robótica"
-permalink: /programacao/palestra-meninas-na-robotica/
+author: "Julio Cesar Madureira Silva"
 ---
 
 ## Meninas na Robótica

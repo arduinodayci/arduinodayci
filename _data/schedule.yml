@@ -2,7 +2,7 @@
   descricao: "Internet das coisas (Internet of things - IoT)"
   horario: "15/03/2019 - 18:30 às 20:30"
   local: "Auditório do campus"
-  link: /programacao/mesa-redonda-arduino-d19
+  link: /posts/mesa-redonda-arduinod19/
 
 - titulo: "Mostras técnicas"
   descricao: "Em breve mais informações"
@@ -20,7 +20,7 @@
   descricao: "Apresentação do projeto Meninas na Robótica" 
   horario: "16/03/2019 - 09:00"
   local: "Auditório do campus"
-  link: /programacao/palestra-meninas-na-robotica/
+  link: /posts/palestra-meninas-na-robotica/
 
 - titulo: "Minicurso: Arduino.ZERO"
   descricao: "Este Minicurso é destinado para os iniciantes em Arduino. Faça já a sua inscrição!" 

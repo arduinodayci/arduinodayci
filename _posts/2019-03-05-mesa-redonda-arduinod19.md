@@ -1,10 +1,10 @@
 ---
-layout: schedule
+layout: post
 lang: pt-br
 title: Mesa redonda ArduinoD19
 schedule: 15 de março de 2019, às 18:30
 description: "“Internet das coisas (loT), Internet de tudo ou Internet industrial é um novo paradigma tecnológico imaginado como uma rede global de máquinas e dispositivos capazes de interagirem uns com os outros.” (In Lee, Kyoochun Lee. 2015)"
-permalink: /programacao/mesa-redonda-arduino-d19/
+author: "Julio Cesar Madureira Silva"
 ---
 
 ## Internet das coisas (_Internet of things IoT_)
