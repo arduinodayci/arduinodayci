@@ -1,7 +1,7 @@
 # Site settings
 title: Arduino Day
 description: > # this means to ignore newlines until "baseurl:"
-  Está chegando o Arduino Day 2019 Cachoeiro, um evento para reunir a comunidade local para discutir ideias e apresentar projetos que utilizem plataformas de prototipagem de baixo custo. Serão oferecidos minicursos, palestras e mostras de trabalhos. Fique atento à programação. Venha participar com a gente.
+  Está chegando o Arduino Day 2020 Cachoeiro, um evento para reunir a comunidade local para discutir ideias e apresentar projetos que utilizem plataformas de prototipagem de baixo custo. Serão oferecidos minicursos, palestras e mostras de trabalhos. Fique atento à programação. Venha participar com a gente.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://arduinodayci.github.io" # the base hostname & protocol for your site
 author: "Labora"

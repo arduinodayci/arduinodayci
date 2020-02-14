@@ -4,129 +4,138 @@ lang: pt-br
 title: Home
 ---
 <div class="jumbotron" id="hero">
-  <div class="container">
-  	<img src="{{ site.baseurl }}/assets/img/arduinoday19.png" alt="Logo Arduino Day 2019" class="img-fluid">
-    <div class="div-text-home">
-    	<h1 class="display-4">Unindo pessoas e projetos</h1>    	
-    	<p class="lead">Está chegando o Arduino Day 2019. Venha compartilhar ideias com a gente!</p>
-    	<p class="lead py-2">15 e 16 de março <span class="badge badge-pill text-light bg-info1">Save the Date!</span></p>
-    </div>
-  </div>
+	<div class="container">
+		<img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Logo Arduino Day 2020" class="img-fluid">
+		<div class="div-text-home">
+			<h1 class="display-4">Unindo pessoas e projetos</h1>
+			<p class="lead">Está chegando o Arduino Day 2020. Venha compartilhar ideias com a gente!</p>
+			<p class="lead py-2">20 e 21 de março <span class="badge badge-pill text-light bg-info1">Save the
+					Date!</span></p>
+		</div>
+	</div>
 </div>
 <div class="container-fluid text-center text-light py-5 skew bg-info1">
 	<div class="row skew-reverse">
-    <div class="col-lg py-2">
-	  	<svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-	    <h3>O evento</h3>
-	    <p>
-	    	O evento é totalmente gratuito e aberto a toda comunidade de Cachoeiro e região. Algumas atividades requerem inscrição e possuem limite de vaga. Uma agenda detalhada da programação será divulgada online previamente. 
-	    </p>
-    </div>
-    <div class="col-lg py-2">
-      <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-	    <h3>Quando</h3>
-	    <p>
-	    	O evento deste ano acontecerá nos dias 15 e 16 de março de 2019.  
-	    </p>
-	    <a class="btn btn-info btn-lg" href="{{ site.url }}/programacao/" role="button">Programação</a>
-    </div>
-    <div class="col-lg py-2">
-      <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-	    <h3>Onde</h3>
-	    <p>
-	    	Todas as atividades serão realizadas no campus do Ifes em Cachoeiro de Itapemirim - ES. Fique atento à programação do evento para detalhamento do local de realização de cada atividade.  
-	    </p>
-    </div>
-  </div>
+		<div class="col-lg py-2">
+			<svg class="icon icon-envelope-o">
+				<use xlink:href="#icon-envelope-o"></use>
+			</svg>
+			<h3>O evento</h3>
+			<p>
+				O evento é totalmente gratuito e aberto a toda comunidade de Cachoeiro e região. Algumas atividades
+				requerem inscrição e possuem limite de vaga. Uma agenda detalhada da programação será divulgada online
+				previamente.
+			</p>
+		</div>
+		<div class="col-lg py-2">
+			<svg class="icon icon-clock-o">
+				<use xlink:href="#icon-clock-o"></use>
+			</svg>
+			<h3>Quando</h3>
+			<p>
+				O evento deste ano acontecerá nos dias 20 e 21 de março de 2019.
+			</p>
+			<a class="btn btn-info btn-lg" href="{{ site.url }}/programacao/" role="button">Programação</a>
+		</div>
+		<div class="col-lg py-2">
+			<svg class="icon icon-map-marker">
+				<use xlink:href="#icon-map-marker"></use>
+			</svg>
+			<h3>Onde</h3>
+			<p>
+				Todas as atividades serão realizadas no campus do Ifes em Cachoeiro de Itapemirim - ES. Fique atento à
+				programação do evento para detalhamento do local de realização de cada atividade.
+			</p>
+		</div>
+	</div>
 </div>
 <div class="container text-center py-5">
-	<h2 class="p-4 h2-text">Atividades</h2> 
+	<h2 class="p-4 h2-text">Atividades</h2>
 	<hr class="hr-15-laranja">
 	<div class="row">
-    <div class="col-lg">
-	  	<svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-	    <h3 class="h3-text">Palestras</h3>
-	    <hr class="hr-15-verde">
-	    <p>
-	    	O estado da arte em Arduino, Impressão 3D, são alguns dos temas a serem abordados nas palestras desta segunda edição do Arduino Day.  
-	    </p>
-    </div>
-    <div class="col-lg">
-      <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-	    <h3 class="h3-text">Exposições</h3>
-	    <hr class="hr-15-verde">
-	    <p>
-	    	Mostra com os trabalhos já desenvolvidos no campus utilizando a plataforma Arduino. Destaque para a apresentação dos trabalhos a serem proferidas pelos próprios alunos. 
-	    </p>
-    </div>
-    <div class="col-lg">
-      <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-	    <h3 class="h3-text">Minicursos</h3>
-	    <hr class="hr-15-verde">
-	    <p>
-	    	Minicursos para os níveis iniciantes serão oferecidos. Todos com atividades baseadas em exemplos práticos e muito aplicados nos dias de hoje.  
-	    </p>
-    </div>
-  </div>
-</div>
-<div class="container-fluid bg-info text-light py-5 skew-org">
-	<div class="container text-center skew-reverse-org">
-		<h2 class="py-4">Organização</h2>
-	  <hr class="hr-15-branco mb-5">
-	  <div class="row">
-	  	{% for member in site.data.team %}
-		  <div class="col">
-		    <img class="rounded-circle filter-member" src="{{ site.baseurl }}/assets/img/members/{{ member.image }}" alt="Foto {{ member.name }}" width="200" height="200">
-		    <p class="lead py-2">{{ member.name }}</p>
-		  </div>
-			{% endfor %}
-	  </div>
+		<div class="col-lg">
+			<svg class="icon icon-envelope-o">
+				<use xlink:href="#icon-envelope-o"></use>
+			</svg>
+			<h3 class="h3-text">Palestras</h3>
+			<hr class="hr-15-verde">
+			<p>
+				O estado da arte em Arduino, Impressão 3D, são alguns dos temas a serem abordados nas palestras desta
+				segunda edição do Arduino Day.
+			</p>
+		</div>
+		<div class="col-lg">
+			<svg class="icon icon-clock-o">
+				<use xlink:href="#icon-clock-o"></use>
+			</svg>
+			<h3 class="h3-text">Exposições</h3>
+			<hr class="hr-15-verde">
+			<p>
+				Mostra com os trabalhos já desenvolvidos no campus utilizando a plataforma Arduino. Destaque para a
+				apresentação dos trabalhos a serem proferidas pelos próprios alunos.
+			</p>
+		</div>
+		<div class="col-lg">
+			<svg class="icon icon-map-marker">
+				<use xlink:href="#icon-map-marker"></use>
+			</svg>
+			<h3 class="h3-text">Minicursos</h3>
+			<hr class="hr-15-verde">
+			<p>
+				Minicursos para os níveis iniciantes serão oferecidos. Todos com atividades baseadas em exemplos
+				práticos e muito aplicados nos dias de hoje.
+			</p>
+		</div>
 	</div>
 </div>
 <div id="faq" class="container py-5">
 	<div>
 		<div class="text-center">
-		  <h2 class="py-4 text-y">FAQ</h2>
-		  <hr class="hr-15-laranja">
-		  <p>Criamos o FAQ para te ajudar a esclarecer as principais dúvidas relacionadas ao evento.</p>
+			<h2 class="py-4 text-y">FAQ</h2>
+			<hr class="hr-15-laranja">
+			<p>Criamos o FAQ para te ajudar a esclarecer as principais dúvidas relacionadas ao evento.</p>
 		</div>
 		<div class="accordion" id="accordionExample">
-			{% for faq in site.data.faq %}			
-				<div class="card">
-			    <div class="card-header" id="headingOne">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link text-secondary" type="button" data-toggle="collapse" data-target="#question-{{ forloop.index }}" aria-expanded="true" aria-controls="collapseOne">
-			          {{ faq.question }}
-			        </button>
-			      </h5>
-			    </div>
-		    	<div id="question-{{ forloop.index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-			      <div class="card-body">
-			        {{ faq.answer }}
-			      </div>
-		    	</div>
-	  	</div>
-		  {% endfor %}
+			{% for faq in site.data.faq %}
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0">
+						<button class="btn btn-link text-secondary" type="button" data-toggle="collapse"
+							data-target="#question-{{ forloop.index }}" aria-expanded="true"
+							aria-controls="collapseOne">
+							{{ faq.question }}
+						</button>
+					</h5>
+				</div>
+				<div id="question-{{ forloop.index }}" class="collapse" aria-labelledby="headingOne"
+					data-parent="#accordionExample">
+					<div class="card-body">
+						{{ faq.answer }}
+					</div>
+				</div>
+			</div>
+			{% endfor %}
 		</div>
 	</div>
 </div>
 <div class="container-fluid bg-info1 text-light py-5 skew">
 	<div class="text-center skew-reverse">
-	  <h2 class="py-4">Não respondemos sua dúvida?</h2>
-	  <p>Entre em contato pelo email {{ site.contact.email }}, vai ser um prazer te ajudar :) </p>
+		<h2 class="py-4">Não respondemos sua dúvida?</h2>
+		<p>Entre em contato pelo email {{ site.contact.email }}, vai ser um prazer te ajudar :) </p>
 	</div>
 </div>
 <div id="local" class="container-fluid py-5">
 	<div class="text-center">
-	  <h2 class="py-4 h2-text">Local</h2>
-	  <hr class="hr-15-laranja">
+		<h2 class="py-4 h2-text">Local</h2>
+		<hr class="hr-15-laranja">
 	</div>
 	<div class="text-center">
 		<img class="img-fluid" src="{{ site.baseurl }}/assets/img/coracao.png" alt="Ilustração componetes eletrônicos">
 		<h2 class="py-4 text-y">Uma celebração mundial do Arduino</h2>
 		<!-- CURRENTLY: 189 EVENTS, 61 COUNTRIES -->
 		<p class="lead">São múltiplos eventos que acontecem em diversos países</p>
-		<p>Atualmente, <strong class="text-y">Cachoeiro de Itapemirim</strong> é a única cidade que promove o Arduino Day em terras capixabas</p>
+		<p>Atualmente, <strong class="text-y">Cachoeiro de Itapemirim</strong> é a única cidade que promove o Arduino
+			Day em terras capixabas</p>
 	</div>
 </div>
-{% include google-map.html latitude=-20.803049 longitude=-41.155421 zoom=14 %}
+{% include google-map.html %}
