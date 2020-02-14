@@ -1,0 +1,31 @@
+<div class="container-fluid text-info py-5 my-5">
+    <div class="container text-center">
+        <h2 class="p-5 h2-text">Está chegando...</h2>
+        <hr class="hr-15-laranja">
+        <strong>
+            <h3 class="p-5 h2-text" style="font-size: 3em;" id="regressiva"></h3>
+        </strong>
+        <hr class="hr-15-laranja">
+    </div>
+</div>
+
+<script>
+    var countDownDate = new Date("{{ include.data }}").getTime()
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("regressiva").innerHTML = days + " dias " + hours + " horas "
+            + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("regressiva").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
