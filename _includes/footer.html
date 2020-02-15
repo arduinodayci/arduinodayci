@@ -1,19 +1,20 @@
- <!-- FOOTER -->
+<!-- FOOTER -->
 <footer class="container-fluid py-5 rodape">
 	<div class="text-center">
-		<img src="{{ site.baseurl }}/assets/img/logoifes.png" alt="Logo do IFES campus Cachoeiro de Itapemirim" class="img-thumbnail" width="140" height="140">
 		<div class="py-2">
-    	<div>{{ site.contact.address }}</div>
-    	<div>{{ site.contact.phone }}</div>
-    	<div>{{ site.contact.email }}</div>       	
-      </div> 
-		<div>		
-  		<p>Desenvolvido por <b class="text-y">{{ site.author }}</b>.</p>
+			<div>{{ site.contact.email }}</div>
+		</div>
+		<div>
+			<p class="text-monospace">Desenvolvido por <b class="text-y">{{ site.author }}</b>.</p>
 		</div>
 		<small>Arduino Day 2017-{{ site.time | date: '%Y' }}</small>
 		<div class="py-2">
-			<a href="https://www.instagram.com/arduinodaycachoeiro/" target="_blank"><svg class="icon social-icon"><use xlink:href="#icon-instagram"></use></svg></a>
-			<a href="https://www.facebook.com/events/519497408549855/" target="_blank"><svg class="icon social-icon"><use xlink:href="#icon-facebook"></use></svg></a>
+			<a href="https://www.instagram.com/arduinodaycachoeiro/" target="_blank"><svg class="icon social-icon">
+					<use xlink:href="#icon-instagram"></use>
+				</svg></a>
+			<a href="https://www.facebook.com/events/519497408549855/" target="_blank"><svg class="icon social-icon">
+					<use xlink:href="#icon-facebook"></use>
+				</svg></a>
 		</div>
 	</div>
 </footer>
