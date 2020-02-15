@@ -9,7 +9,8 @@ author: "Labora"
 # Build settings
 markdown: kramdown
 permalink: /posts/:title/
-google_maps_javascript_api_key: "AIzaSyCdvKiZ7dmgeAGH3GicFsgkMdG0VtZbTew"
+disqus:
+    shortname: arduinoday
 
 sass:
   style: compressed
@@ -23,5 +24,10 @@ contact:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]

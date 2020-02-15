@@ -14,4 +14,11 @@ layout: default
 </div>
 <div class="container py-5 text-justify">
 	{{ content }}
+
+	{% include share-post.html %}
+
+	{% if site.disqus.shortname %}
+	{% include disqus_comments.html %}
+	{% endif %}
+
 </div>
