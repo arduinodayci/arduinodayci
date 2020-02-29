@@ -1,156 +1,168 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 $cor-padrao: #d94a00;
 
 body {
-  font-family: 'Nunito', sans-serif;
-	padding-top: 80px;
+  font-family: "Nunito", sans-serif;
+  padding-top: 80px;
 }
 
 #hero {
-  background: url('../img/bg.png');
+  background: url("../img/bg.png");
   background-attachment: fixed;
 }
 
 .rodape {
-	background: url('../img/banner-grid.png');
+  background: url("../img/banner-grid.png");
 }
 
-@media (min-width: 931px){
-  #hero, .rodape {
+@media (min-width: 931px) {
+  #hero,
+  .rodape {
     background-size: 70em;
   }
 }
 
-@media (max-width: 931px){
-  #hero, .rodape {
+@media (max-width: 931px) {
+  #hero,
+  .rodape {
     background-size: 70em;
   }
 }
 
-@media (max-width: 815px){
-  #hero, .rodape {
+@media (max-width: 815px) {
+  #hero,
+  .rodape {
     background-size: 65em;
   }
 }
 
-@media (max-width: 729px){
-  #hero, .rodape {
+@media (max-width: 729px) {
+  #hero,
+  .rodape {
     background-size: 60em;
   }
 }
 
-@media (max-width: 669px){
-  #hero, .rodape {
+@media (max-width: 669px) {
+  #hero,
+  .rodape {
     background-size: 55em;
   }
 }
 
-@media (max-width: 600px){
-  #hero, .rodape {
+@media (max-width: 600px) {
+  #hero,
+  .rodape {
     background-size: 50em;
   }
 }
 
-@media (max-width: 550px){
-  #hero, .rodape {
+@media (max-width: 550px) {
+  #hero,
+  .rodape {
     background-size: 40em;
   }
 }
 
-@media (max-width: 450px){
-  #hero, .rodape {
+@media (max-width: 450px) {
+  #hero,
+  .rodape {
     background-size: 35em;
   }
 }
 
-@media (max-width: 388px){
-  #hero, .rodape {
+@media (max-width: 388px) {
+  #hero,
+  .rodape {
     background-size: 32em;
   }
 }
 
-@media (max-width: 354px){
-  #hero, .rodape {
+@media (max-width: 354px) {
+  #hero,
+  .rodape {
     background-size: 30em;
   }
 }
 
-@media (max-width: 322px){
-  #hero, .rodape {
+@media (max-width: 322px) {
+  #hero,
+  .rodape {
     background-size: 28em;
   }
 }
 
-@media (max-width: 300px){
-  #hero, .rodape {
+@media (max-width: 300px) {
+  #hero,
+  .rodape {
     background-size: 25em;
   }
 }
 
-@media (max-width: 270px){
-  #hero, .rodape {
+@media (max-width: 270px) {
+  #hero,
+  .rodape {
     background-size: 20em;
   }
 }
 
 .icon {
-	fill: #fff;
-	max-width: 2em;
-	max-height: 2em;
+  fill: #fff;
+  max-width: 2em;
+  max-height: 2em;
 }
 
-.bg-info1{
+.bg-info1 {
   background: $cor-padrao !important;
 }
 
-.badge-warning{
+.badge-warning {
   color: #fff;
 }
 
-.h3-text{
+.h3-text {
   color: $cor-padrao !important;
 }
 
-
-.h2-text{
+.h2-text {
   color: #17a2b8 !important;
 }
 
-.text-y{
+.text-y {
   color: #e5ad24 !important;
 }
 .text-info {
-    color: #ffff !important;
+  color: #ffff !important;
 }
 .icon {
-	fill: #fff;
-	max-width: 2em;
-	max-height: 2em;
+  fill: #fff;
+  max-width: 2em;
+  max-height: 2em;
 }
 
-.skew{
-  -ms-transform:skewY(-2deg);
-  -webkit-transform:skewY(-2deg);
-  transform:skewY(-2deg);
+.skew {
+  -ms-transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
 }
 
-.skew-reverse{
-  -ms-transform:skewY(2deg);
-  -webkit-transform:skewY(2deg);
-  transform:skewY(2deg);
+.skew-reverse {
+  -ms-transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
-.skew-org{
-  -ms-transform:skewY(2deg);
-  -webkit-transform:skewY(2deg);
-  transform:skewY(2deg);
+.skew-org {
+  -ms-transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
-.skew-reverse-org{
-  -ms-transform:skewY(-2deg);
-  -webkit-transform:skewY(-2deg);
-  transform:skewY(-2deg);
+.skew-reverse-org {
+  -ms-transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
 }
 
 .social-icon {
@@ -162,12 +174,12 @@ body {
 }
 
 .filter-member {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	&:hover{
-	    filter: grayscale(0);
-	    transition: 1s;
-	}
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  &:hover {
+    filter: grayscale(0);
+    transition: 1s;
+  }
 }
 
 .hr-15-laranja {
@@ -192,5 +204,20 @@ body {
 
 .div-text-home {
   color: #806f5c;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-componentes {
+  min-height: 70vh;
+  background: #fff;
+  background-image: url("../img/bottom-bg-arduinoday.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+}
+
+@media (min-width: 500px) {
+  .bg-componentes {
+    background-size: 25% auto;
+  }
 }
