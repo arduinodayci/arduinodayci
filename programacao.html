@@ -12,34 +12,27 @@ permalink: /programacao/
 	</div>
 </div>
 <div class="jumbotron jumbotron-fluid bg-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
-		<h2>Em breve...</h2>
-		<p>			
-			Mas pode marcar na sua agenda os dias 20 e 21 de março.
-		</p>
-
-          {%- comment -%} 
-		  <div class="main-timeline">
-          		{% for schedule in site.data.schedule %}
-				<div class="timeline">
-					<span class="timeline-icon"></span>
-					<span class="year">{{ schedule.horario }}</span>
-					<div class="timeline-content">
-						<h3 class="title">{{ schedule.titulo }}</h3>
-						<p class="description">
-						{{ schedule.descricao }}
-						{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba mais</a>{% endif %}
-						</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main-timeline">
+					{% for schedule in site.data.schedule %}
+					<div class="timeline">
+						<span class="timeline-icon"></span>
+						<span class="year">{{ schedule.horario }}</span>
+						<div class="timeline-content">
+							<h3 class="title">{{ schedule.titulo }}</h3>
+							<p class="lead">Local: {{ schedule.local }}</p>
+							<p class="description">
+								{{ schedule.descricao }}
+								{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba
+									mais</a>{% endif %}
+							</p>
+						</div>
 					</div>
+					{% endfor %}
 				</div>
-				{% endfor %}
-          </div> 
-		  {%- endcomment -%}
-		  
-      </div>
+			</div>
 		</div>
-  </div>
+	</div>
 </div>

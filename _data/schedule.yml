@@ -1,35 +1,71 @@
-- titulo: "Mesa redonda ArduinoD19"
-  descricao: "Internet das coisas (Internet of things - IoT)"
-  horario: "15/03/2019 - 18:30 às 20:30"
-  local: "Auditório do campus"
-  link: /posts/mesa-redonda-arduinod19/
+- titulo: "Credenciamento e Mostra Científica"
+  descricao: 
+  horario: "20/03/2020 - 16:00"
+  local: "FDCI"
+  link: # Link para mais informações ex.: /posts/palestra-meninas-na-robotica/
 
-- titulo: "Mostras técnicas"
-  descricao: "Em breve mais informações"
-  horario: "15/03/2019 - 20:50 às 22:00"
-  local: "Auditório do campus"
-  link:
-
-- titulo: "Oficina de Cubo Mágico ArduinoD19"
-  descricao: "Será conduzida pelo professor Eliseu Semprini. Faça já a sua inscrição!" 
-  horario: "16/03/2019 - a partir de 08:30"
-  local: "Auditório do campus"
-  link:
-
-- titulo: "Palestra: Meninas na robótica"
-  descricao: "Apresentação do projeto Meninas na Robótica" 
-  horario: "16/03/2019 - 09:00"
-  local: "Auditório do campus"
-  link: /posts/palestra-meninas-na-robotica/
-
-- titulo: "Minicurso: Arduino.ZERO"
-  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. Faça já a sua inscrição!" 
-  horario: "16/03/2019 - a partir de 10:00"
-  local: "Auditório do campus"
+- titulo: "Aquecimento: Oficina de cubo mágico"
+  descricao: 
+  horario: "20/03/2020 - 17:00"
+  local: "FDCI"
   link: 
 
-- titulo: "Minicurso: Arduino.UM"
-  descricao: "Este Minicurso é destinado para os iniciantes em Arduino. Faça já a sua inscrição!" 
-  horario: "16/03/2019 - a partir de 10:00"
-  local: "Auditório do campus"
+- titulo: "Abertura"
+  descricao: 
+  horario: "20/03/2020 - 18:00"
+  local: "FDCI"
+  link: 
+
+- titulo: "Mesa 1: Educação 4.0"
+  descricao: 
+  horario: "20/03/2020 - 18:30"
+  local: "FDCI"
+  link: 
+
+- titulo: "Mesa 2: LGPD"
+  descricao: 
+  horario: "20/03/2020 - 20:15"
+  local: "FDCI"
+  link: 
+
+- titulo: "Encerramento do dia"
+  descricao: "Encerramento das atividades do dia 20."
+  horario: "20/03/2020 - 22:00"
+  local: "FDCI"
+  link: 
+
+- titulo: "Credenciamento e Mostra Científica"
+  descricao: 
+  horario: "21/03/2020 - 07:00"
+  local: "IFES"
+  link: 
+    
+- titulo: "Apresentação Artística"
+  descricao: 
+  horario: "21/03/2020 - 07:30"
+  local: "IFES"
+  link: 
+
+- titulo: "Palestra Técnica"
+  descricao: 
+  horario: "21/03/2020 - 08:00"
+  local: "IFES"
+  link: 
+
+- titulo: "Intervalo"
+  descricao: 
+  horario: "21/03/2020 - 08:45"
+  local: "IFES"
+  link: 
+
+- titulo: "Demais atividades do dia"
+  descricao: "Minicursos / Palestras / Demonstrações"
+  horario: "21/03/2020 - 09:00"
+  local: "IFES"
+  link: 
+
+- titulo: "Encerramento do Evento"
+  descricao: 
+  horario: "21/03/2020 - 12:00"
+  local: "IFES"
   link: 
