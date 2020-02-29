@@ -1,24 +1,26 @@
 ---
 layout: default
-title: Incrições
+title: Inscrições
 description: Para a garantir a participação no Arduino Day, é importante se inscrever.
 ---
-<div class="container-fluid bg-info text-light py-5">
-	<div class="container">
-		<h1>Incrições</h1>
-		<p>Venha participar conosco!</p>
+<main class="bg-componentes">
+	<div class="container-fluid bg-info text-light py-5">
+		<div class="container">
+			<h1>Inscrições</h1>
+			<p>Venha participar conosco!</p>
+		</div>
 	</div>
-</div>
-<div class="container py-5 text-justify">
-	<h2>Em breve...</h2>
-	{%- comment -%}
-	{% for activity in site.data.activities %}
-	<div class="py-4">
-		<p class="lead">{{ activity.titulo }}</h2>
-		<p>{{ activity.descricao }}</p>
-		<a class="btn btn-info" href="{{ activity.link }}" target="_blank" role="button">{{ activity.nome }}</a>
+	<div class="container py-5 text-justify">
+		<p class="lead font-weight-bold">
+			Utilize o formulário abaixo para realizar a sua inscrição.
+		</p>
+		<hr />
+		<div class="py-5">
+			<p class="lead">Formulário para credenciamento Arduino Day 2020</p>
+			<p>Formulário para credenciamento de participantes do Fórum de Tecnologia Arduino Day 2020.</p>
+			<a class="btn btn-info"
+				href="https://docs.google.com/forms/d/e/1FAIpQLSeiVhpCF0EOM0OQlF7n16rmKzhCtwCYZ7P8k030UxwHRi2HoQ/viewform"
+				target="_blank" role="button">Credenciamento Arduino Day 2020</a>
+		</div>
 	</div>
-	<hr />
-	{% endfor %}
-	{%- endcomment -%}
-</div>
+</main>
