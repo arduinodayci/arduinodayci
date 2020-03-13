@@ -1,34 +1,34 @@
 ---
 layout: default
-title: Minicursos
+title: Minicursos e Palestras
 description: Para a garantir a participação no Arduino Day, é importante se inscrever.
 ---
 <main class="bg-componentes">
     <div class="container-fluid bg-info text-light py-5">
         <div class="container">
-            <h1>Minicursos</h1>
+            <h1>Minicursos e Palestras</h1>
             <p>Venha participar conosco!</p>
         </div>
     </div>
     <div class="container py-5 text-justify">
-        {% for minicurso in site.data.minicursos %}
+        {% for item in site.data.minicursos_palestras %}
 
         <div class="card mb-3">
             <div class="card-header">
-                {{ minicurso.titulo }}
+                {{ item.titulo }}
             </div>
             <div class="card-body">
-                <p class="card-text">{{ minicurso.resumo }}</p>
+                <p class="card-text">{{ item.resumo }}</p>
                 <p class="card-text">
                     Instrutores(es):
                     <ul>
-                        {% for instrutor in minicurso.instrutores %}
+                        {% for instrutor in item.instrutores %}
                         <li>{{ instrutor }}</li>
                         {% endfor %}
                     </ul>
                 </p>
-                <p>{{ minicurso.descricao }}</p>
-                <p class="card-text"><small class="text-muted">{{ minicurso.observacao }}</small></p>
+                <p>{{ item.descricao }}</p>
+                <p class="card-text"><small class="text-muted">{{ item.observacao }}</small></p>
             </div>
         </div>
 

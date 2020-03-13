@@ -67,6 +67,7 @@ atividades remotamente."
     - "Pedro Miguel do N. Coelho"
   orientador: "Prof. Markcirlei"
   eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT1"
 
 
 - titulo: "MT1-010: Reconhecimento Facial – Os dois lados da tecnologia"
@@ -186,3 +187,76 @@ interdisciplinar, com suas relações entre o
 direito digital e as pretensões judiciais
 relativas às indenizações por dano moral,
 compõem a base para discussão do tema."
+
+- titulo: "MT2-018: Usando o Minecraft para ensinar Lógica Booleana"
+  autores: 
+    - "Lucas Pezzinni"
+  orientador: "Prof. Júlio Madureira / Prof. Eliseu Semprini Filho"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"
+
+- titulo: "MT2-019: Sistema fotovoltaico offgrid para a construção de um placar eletrônico para quadra poliesportiva do campus"
+  autores: 
+    - "João"
+    - "Kevin"
+  orientador: "Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"
+
+- titulo: "MT2-019: Contador Geiger usando Arduino"
+  autores: 
+    - "Kevin"
+  orientador: "Prof. Fabielle Castellan / Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"  
+
+- titulo: "MT2-020: Medidor de PH usando Arduino"
+  autores: 
+    - "Kemuel"
+  orientador: "Prof. Fabielle Castellan / Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"  
+
+- titulo: "MT2-020: Robótica educacional - Time4Robotics"
+  autores:
+    - "Joana Rozaes"
+  orientador: "Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"  
+
+- titulo: "MT2-021: Otimização no cultivo de alface"
+  autores:
+    - "Diego Cosaquevitt"
+    - "João Ítalo"
+  orientador: "Prof. Fabielle Castellan"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2"  
+  
+- titulo: "MT2-022: Eletrólise Fotovoltaica para a produção de Hidrogênio usando resíduos das indústrias de rochas ornamentais"
+  autores: 
+    - "Gabriel Valane"
+  orientador: "Prof. Fabielle Castellan"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2" 
+
+- titulo: "MT2-023: Robótica educacional – Robôs para a Olimpíada Brasileira de Robótica (OBR)"
+  autores: 
+    - "Joana"
+    - "Otávio"
+  orientador: "Prof. Fabielle Castellan"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2" 
+
+- titulo: "MT2-024: Medição do consumo de energia de um aparelho de ar condicionado usando Arduino"
+  autores: 
+    - "Otávio"
+  orientador: "Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2" 
+
+- titulo: "MT2-025: Caracterização de parâmetros elétricos de células fotovoltaicas orgânicas (Organic Photovoltaics – OPV)"
+  autores: 
+    - "Eduardo Sampaio"
+  orientador: "Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  tag: "MT2" 

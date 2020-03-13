@@ -1,0 +1,40 @@
+---
+layout: default
+title: MT1 - MOSTRA TECNOLÓGICA 1
+description: Para a garantir a participação no Arduino Day, é importante se inscrever.
+---
+<main class="bg-componentes">
+    <div class="container-fluid bg-info text-light py-5">
+        <div class="container">
+            <h1>MT1 - Mostra tecnológica 1</h1>
+            <p>Venha participar conosco!</p>
+        </div>
+    </div>
+    <div class="container py-5 text-justify">
+        {% assign filtered = site.data.activities | where_exp: "item", "item.tag != 'MT2'" %}
+        {% for activity in filtered %}
+
+        <div class="card mb-3">
+            <div class="card-header">
+                {{ activity.titulo }}
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{ activity.resumo }}</p>
+                <p class="card-text">
+                    Autor(es):
+                    <ul>
+                        {% for autor in activity.autores %}
+                        <li>{{ autor }}</li>
+                        {% endfor %}
+                    </ul>
+                </p>
+                <p class="card-text">Orientador: {{ activity.orientador }}</p>
+                <p>{{ activity.descricao }}</p>
+                <p class="card-text"><small class="text-muted">{{ activity.eixo }}</small></p>
+                <div><span class="badge badge-pill badge-info">{{ activity.tipo }}</span></div>
+            </div>
+        </div>
+
+        {% endfor %}
+    </div>
+</main>

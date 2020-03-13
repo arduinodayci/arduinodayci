@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Atividades
+title: MT2 - MOSTRA TECNOLÓGICA 2
 description: Para a garantir a participação no Arduino Day, é importante se inscrever.
 ---
 <main class="bg-componentes">
     <div class="container-fluid bg-info text-light py-5">
         <div class="container">
-            <h1>Atividades</h1>
+            <h1>MT2 - Mostra tecnológica 2</h1>
             <p>Venha participar conosco!</p>
         </div>
     </div>
     <div class="container py-5 text-justify">
-        {% for activity in site.data.activities %}
+        {% assign filtered = site.data.activities | where: 'tag', 'MT2' %}
+        {% for activity in filtered %}
 
         <div class="card mb-3">
             <div class="card-header">

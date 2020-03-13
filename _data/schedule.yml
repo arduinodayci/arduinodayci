@@ -1,8 +1,8 @@
 - titulo: "Credenciamento e Mostra Tecnológica"
   descricao: 
-  horario: "16:00"
+  horario: "16:30"
   local: "FDCI"
-  link: # Link para mais informações ex.: /posts/palestra-meninas-na-robotica/
+  link: /mostra-tecnologica-1/
   data: '2020-03-20'
 
 - titulo: "Aquecimento: Oficina de cubo mágico"
@@ -40,11 +40,11 @@
   link: 
   data: '2020-03-20'
 
-- titulo: "Credenciamento e Mostra Científica"
+- titulo: "Credenciamento e Mostra Tecnológica"
   descricao: 
   horario: "07:00"
   local: "IFES"
-  link: 
+  link: /mostra-tecnologica-2/
   data: '2020-03-21'
     
 - titulo: "Apresentação Artística"
@@ -72,7 +72,7 @@
   descricao: "Minicursos / Palestras / Demonstrações"
   horario: "10:00"
   local: "IFES"
-  link: /minicursos/
+  link: /minicursos-e-palestras/
   data: '2020-03-21'
   requer_inscricao: True
 

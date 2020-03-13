@@ -6,6 +6,8 @@ description: ""
 author: "Julio Cesar Madureira Silva"
 ---
 
+Esta mesa redonda acontecerá no dia 20 de março de 2020 no auditório da Faculdade de Direito de Cachoeiro de Itapemirim (FDCI).
+
 ## Convidados
 
 ![convidada maria deuceny](/assets/img/posts/mesa-redonda-educacao-40/deuceny.jpg){: class="rounded mx-auto d-block py-4 foto-convidado"}

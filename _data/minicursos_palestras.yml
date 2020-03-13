@@ -1,0 +1,29 @@
+- titulo: "MC-001: Impressão 3D: da introdução à prática"
+  instrutores: 
+    - "Fernando Bueno Dansi (Incubadora Ifes Cachoeiro)"
+
+  descricao: "Minicurso com objetivo de apresentar uma introdução à tecnologia de impressão 3D. Abordará a modelagem de projetos, tipos de impressora e materiais usados para impressão, dificuldades e
+facilidades
+da
+impressão 3D. Também serão
+apresentados relatos de experiência
+com dicas
+práticas do instrutor
+deste curso."
+  observacao: "30 vagas. Necessário fazer inscrição."
+
+- titulo: "MC-002: Arduino Básico – Simulação de circuitos com Arduino usando TinkerCAD"
+  instrutores: 
+    - "Josias"
+    - "Jhonathan" 
+    - "G. Valane"
+  observacao: "30 vagas. Necessário fazer inscrição."
+
+- titulo: "MC-003: Arduino hands on – Minicurso prático para uso do Arduino e sensores"
+  instrutores: "Joana"
+  observacao: "20 vagas. Necessário fazer inscrição.
+Desejável prévio conhecimento de eletrônica e programação básica."
+
+- titulo: "PT-001: Relato de Caso: Mundo Maker e Educação 4.0"
+  instrutores: "Otávio Borges Lima"
+  observacao: "Esta palestra acontecerá no dia 21 de março de 2020 no auditório do Ifes campus Cachoeiro de Itapemirim"
