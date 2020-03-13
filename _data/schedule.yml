@@ -30,7 +30,7 @@
   descricao: 
   horario: "20:15"
   local: "FDCI"
-  link: 
+  link: /posts/mesa-redonda-privacidade-e-lei-geral-de-protecao-de-dados/
   data: '2020-03-20'
 
 - titulo: "Encerramento do dia"
@@ -70,10 +70,11 @@
 
 - titulo: "Demais atividades do dia"
   descricao: "Minicursos / Palestras / Demonstrações"
-  horario: "09:00"
+  horario: "10:00"
   local: "IFES"
-  link: 
+  link: /minicursos/
   data: '2020-03-21'
+  requer_inscricao: True
 
 - titulo: "Encerramento do Evento"
   descricao: 

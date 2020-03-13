@@ -28,13 +28,17 @@ permalink: /programacao/
 							<p class="lead">Local: {{ schedule.local }}</p>
 							<p class="description">
 								{{ schedule.descricao }}
-								{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba
-									mais</a>{% endif %}
-							</p>
 							<p class="font-weight-lighter">
 								<time datetime="{{ schedule.data | date_to_xmlschema }}">
 						            {% include date.html date=schedule.data %} às {{ schedule.horario }}
 								</time>
+							</p>
+							{% if schedule.link %}
+							<a href="{{ schedule.link | prepend: site.baseurl }}" class="btn btn-outline-info btn-sm">Saiba mais</a>
+							{% endif %}
+							{% if schedule.requer_inscricao %}
+								<span class="badge badge-pill badge-danger">Requer inscrição</span>
+							{% endif %}
 							</p>
 						</div>
 					</div>
@@ -55,14 +59,18 @@ permalink: /programacao/
 							<p class="lead">Local: {{ schedule.local }}</p>
 							<p class="description">
 								{{ schedule.descricao }}
-								{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba
-									mais</a>{% endif %}
 							</p>
 							<p class="font-weight-lighter">
 								<time datetime="{{ schedule.data | date_to_xmlschema }}">
 						            {% include date.html date=schedule.data %} às {{ schedule.horario }}
 								</time>
 							</p>
+							{% if schedule.link %}
+							<a href="{{ schedule.link | prepend: site.baseurl }}" class="btn btn-outline-info btn-sm">Saiba mais</a>
+							{% endif %}
+							{% if schedule.requer_inscricao %}
+								<span class="badge badge-pill badge-danger">Requer inscrição</span>
+							{% endif %}
 						</div>
 					</div>
 					{% endfor %}

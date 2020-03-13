@@ -4,7 +4,6 @@
   orientador: "Prof. Eliseu Semprini Filho"
   tipo: "Oficina prática"
 
-
 - titulo: "MT1-001: Braço hidráulico"
   autores: 
     - "Gabriel Valane"
@@ -20,13 +19,71 @@
   orientador: "Prof. Leandro Marochio Fernandes"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
-  
+
+- titulo: "MT1-003: Utilização do Arduino e TinkerCAD como incentivo nas aulas de Física: Aplicação Prática da Lei de OHM"
+  autores: 
+    - "Danielle da Silva Marques"
+    - "Jander Abrita de Carvalho"
+    - "Marlon Rafael Jordão Viana dos Santos"
+    - "Saionara Coelho Peixoto"
+  orientador: "Prof. Júlio Madureira / Prof. Tiago Destefani"
+  tipo: "Mostra tecnológica"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  descricao: "Este trabalho tem como intenção
+apoiar o desenvolvimento da
+didática dos professores de física
+agregando tecnologia às aulas. Ele
+apresenta uma utilização prática do
+Arduino para coleta de dados que
+demonstram a lei de Ohm e o
+aplicativo TinkerCAD para que os
+alunos
+possam
+desenvolver
+atividades remotamente."
+
+- titulo: "MT1-004: Sistema de aquisição de dados (DAQ) com Arduino"
+  autores: 
+    - "Josias Paulucio Tiburcio"
+  orientador: "Prof. Júlio Madureira"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+  descricao: "Este trabalho tem como intenção
+apoiar o desenvolvimento da
+didática dos professores de física
+agregando tecnologia às aulas. Ele
+apresenta uma utilização prática do
+Arduino para coleta de dados que
+demonstram a lei de Ohm e o
+aplicativo TinkerCAD para que os
+alunos
+possam
+desenvolver
+atividades remotamente."
+
+- titulo: "MT2-027: Análise de vibração com o Arduino para a detecção de desbalanceamento de motores"
+  autores: 
+    - "Emílio David"
+    - "Vitor das Chagas"
+    - "Pedro Miguel do N. Coelho"
+  orientador: "Prof. Markcirlei"
+  eixo: "Refere-se aos trabalhos relacionados ao tema Educação 4.0"
+
+
 - titulo: "MT1-010: Reconhecimento Facial – Os dois lados da tecnologia"
   autores: 
     - "Bárbara Abreu"
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "O problema de pesquisa surge
+a partir de indagação sobre como a
+tecnologia de reconhecer e obter os
+dados de alguém, mediante a análise de
+seu rosto em questão de segundos,
+pode falhar e com isso, alavancar
+problemas sociais históricos, tal como a
+segregação racial de determinados
+grupos minoritários."
 
 - titulo: "MT1-012: Desafios da ODR (Online Dispute Resolution) na justiça brasileira"
   autores: 
@@ -41,6 +98,17 @@
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "Propõe-se um estudo acerca da
+proteção de dados pessoais, da tutela a
+privacidade e como está se efetiva. Para
+tanto, serão analisados os problemas de
+privacidade em face da sociedade da
+informação com o objetivo de identificar e
+como o ordenamento jurídico tem imposto
+limites nas atividades de coleta, tratamento
+e armazenamento de dados, sobretudo a
+partir da Lei Geral de Proteção de Dados –
+LGPD (Lei no 13.709/2018)."
 
 - titulo: "MT1-014: Herança Digital: direito da personalidade do cujus e privacidade de terceiros"
   autores: 
@@ -48,6 +116,19 @@
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "A pesquisa propõe uma análise à
+luz da possibilidade jurídica da transmissão
+de bens digitais a partir do seguinte
+problema de pesquisa: o acervo virtual, as
+contas dos aplicativos, são passiveis de
+herança? Se afirmativa a resposta, não
+estaria assim violando a privacidade do
+falecido e de terceiros que com ele se
+relacionavam na rede? Dada a relevância
+da matéria e havendo uma omissão
+legislativa no que se refere ao paradigma,
+pretende-se analisar a possibilidade de
+herança digital no Brasil."
 
 - titulo: "MT1-015: Uma análise acerca da teoria do risco do desenvolvimento e sua aplicação frente à inteligência artificial"
   autores: 
@@ -55,6 +136,19 @@
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "O objetivo deste trabalho
+é analisar a aplicação da teoria do
+risco do desenvolvimento nas
+possíveis problemáticas que giram
+em torno dos sistemas que fazem o
+uso
+da
+inteligência
+artificial,
+analisando a quem caberia a
+responsabilização por eventuais
+danos causados por esses sistemas
+aos usuários."
 
 - titulo: "MT1-016: Análise da venda de dados pessoais pelo próprio titular"
   autores: 
@@ -63,6 +157,15 @@
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "O problema da pesquisa
+diz respeito à possibilidade de
+estabelecer um contrato de compra
+e venda de dados pessoais de
+forma direta, de modo que o usuário
+participe ativamente e de forma
+lucrativa da coleta de dados
+feita pelos aplicativos, o que já
+acontece hoje de forma gratuita."
 
 - titulo: "MT1-017: A (in)constitucionalidade do artigo 19 do Marco Civil da Internet (Lei 12.965/2014): responsabilidade civil de provedores de aplicações,
             controle prédio do usuário e utilização da notificação extrajudicial à luz
@@ -73,3 +176,13 @@
   orientador: "Profa. Larissa de Lima Vargas Souza"
   tipo: "Mostra tecnológica"
   eixo: "Refere-se aos trabalhos relacionados ao tema Lei Geral de Proteção de Dados (LGPD)"
+  descricao: "Discute-se a (in)
+constitucionalidade do artigo 19 do Marco
+Civil da Internet e busca-se solução à
+excludente de responsabilidade dos
+provedores de aplicação. O direito civil, por
+meio de uma abordagem holística e
+interdisciplinar, com suas relações entre o
+direito digital e as pretensões judiciais
+relativas às indenizações por dano moral,
+compõem a base para discussão do tema."
