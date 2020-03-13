@@ -170,7 +170,7 @@ $color-border-nth-child-4: #25cbaa;
     }
   }
 
-  @media only screen and (max-width: 767px) {
+  //@media only screen and (max-width: 767px) {
     overflow: visible;
 
     &:before {
@@ -216,5 +216,5 @@ $color-border-nth-child-4: #25cbaa;
       text-align: left !important;
       margin: 0 35px 0 45px;
     }
-  }
+  //}
 }

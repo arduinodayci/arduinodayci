@@ -1,71 +1,83 @@
 - titulo: "Credenciamento e Mostra Tecnológica"
   descricao: 
-  horario: "20/03/2020 - 16:00"
+  horario: "16:00"
   local: "FDCI"
   link: # Link para mais informações ex.: /posts/palestra-meninas-na-robotica/
+  data: '2020-03-20'
 
 - titulo: "Aquecimento: Oficina de cubo mágico"
   descricao: 
-  horario: "20/03/2020 - 17:00"
+  horario: "17:00"
   local: "FDCI"
   link: 
+  data: '2020-03-20'
 
 - titulo: "Abertura"
   descricao: 
-  horario: "20/03/2020 - 18:00"
+  horario: "18:00"
   local: "FDCI"
   link: 
+  data: '2020-03-20'
 
 - titulo: "Mesa 1: Educação 4.0"
   descricao: 
-  horario: "20/03/2020 - 18:30"
+  horario: "18:30"
   local: "FDCI"
-  link: 
+  link: /posts/mesa-redonda-educacao-40/
+  data: '2020-03-20'
 
-- titulo: "Mesa 2: LGPD"
+- titulo: "Mesa 2: Privacidade e Lei Geral de Proteção de Dados"
   descricao: 
-  horario: "20/03/2020 - 20:15"
+  horario: "20:15"
   local: "FDCI"
   link: 
+  data: '2020-03-20'
 
 - titulo: "Encerramento do dia"
   descricao: "Encerramento das atividades do dia 20."
-  horario: "20/03/2020 - 22:00"
+  horario: "22:00"
   local: "FDCI"
   link: 
+  data: '2020-03-20'
 
 - titulo: "Credenciamento e Mostra Científica"
   descricao: 
-  horario: "21/03/2020 - 07:00"
+  horario: "07:00"
   local: "IFES"
   link: 
+  data: '2020-03-21'
     
 - titulo: "Apresentação Artística"
   descricao: 
-  horario: "21/03/2020 - 07:30"
+  horario: "07:30"
   local: "IFES"
   link: 
+  data: '2020-03-21'
 
 - titulo: "Palestra Técnica"
   descricao: 
-  horario: "21/03/2020 - 08:00"
+  horario: "08:00"
   local: "IFES"
   link: 
+  data: '2020-03-21'
 
 - titulo: "Intervalo"
   descricao: 
-  horario: "21/03/2020 - 08:45"
+  horario: "08:45"
   local: "IFES"
-  link: 
+  link:
+  data: '2020-03-21'
 
 - titulo: "Demais atividades do dia"
   descricao: "Minicursos / Palestras / Demonstrações"
-  horario: "21/03/2020 - 09:00"
+  horario: "09:00"
   local: "IFES"
   link: 
+  data: '2020-03-21'
 
 - titulo: "Encerramento do Evento"
   descricao: 
-  horario: "21/03/2020 - 12:00"
+  horario: "12:00"
   local: "IFES"
   link: 
+  data: '2020-03-21'

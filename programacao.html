@@ -14,9 +14,12 @@ permalink: /programacao/
 	</div>
 	<div class="container py-5">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-6">
+				<h2 class="text-center py-2">20/03/2020</h2>
+				<hr class="hr-15-laranja">
 				<div class="main-timeline">
-					{% for schedule in site.data.schedule %}
+					{% assign schedules_col_esq = site.data.schedule | where: 'data', '2020-03-20' %}
+					{% for schedule in schedules_col_esq %}
 					<div class="timeline">
 						<span class="timeline-icon"></span>
 						<span class="year">{{ schedule.horario }}</span>
@@ -27,6 +30,38 @@ permalink: /programacao/
 								{{ schedule.descricao }}
 								{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba
 									mais</a>{% endif %}
+							</p>
+							<p class="font-weight-lighter">
+								<time datetime="{{ schedule.data | date_to_xmlschema }}">
+						            {% include date.html date=schedule.data %} às {{ schedule.horario }}
+								</time>
+							</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h2 class="text-center py-2">21/03/2020</h2>
+				<hr class="hr-15-verde">
+				<div class="main-timeline">
+					{% assign schedules_col_dir = site.data.schedule | where: 'data', '2020-03-21' %}
+					{% for schedule in schedules_col_dir %}
+					<div class="timeline">
+						<span class="timeline-icon"></span>
+						<span class="year">{{ schedule.horario }}</span>
+						<div class="timeline-content">
+							<h3 class="title">{{ schedule.titulo }}</h3>
+							<p class="lead">Local: {{ schedule.local }}</p>
+							<p class="description">
+								{{ schedule.descricao }}
+								{% if schedule.link %}<a href="{{ schedule.link | prepend: site.baseurl }}">Saiba
+									mais</a>{% endif %}
+							</p>
+							<p class="font-weight-lighter">
+								<time datetime="{{ schedule.data | date_to_xmlschema }}">
+						            {% include date.html date=schedule.data %} às {{ schedule.horario }}
+								</time>
 							</p>
 						</div>
 					</div>
