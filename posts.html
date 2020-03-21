@@ -12,7 +12,7 @@ pagination:
   </div>
 </div>
 <div class="container">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <div class="py-4">
     <h2>
       <a href="{{ post.url | relative_url }}" class="text-dark link-clean">{{ post.title | escape }}</a>
@@ -33,6 +33,7 @@ pagination:
   {% endfor %}
 
 
+  {%- comment -%}
   <!-- Pagination links -->
   <nav aria-label="Page navigation example">
     {% if paginator.total_pages > 1 %}
@@ -83,5 +84,6 @@ pagination:
     </ul>
     {% endif %}
   </nav>
+  {%- endcomment -%}
 
 </div>
